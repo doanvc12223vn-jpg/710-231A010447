@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.menu a {
+  margin-right: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timer {
+  font-size: 48px;
+  text-align: center;
+}
+
+.warning {
+  color: red;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0.5; }
+}
+
+.error {
+  color: red;
+}
